@@ -1,0 +1,10 @@
+<li>
+	{{this.burger_name}} {{#unless this.devoured}}
+	<div class="change-devoured">
+		<button class="btn-small btn-floating waves-effect waves-light pulse eat-burger tooltipped" data-position="right" data-tooltip="Eat this burger..."
+		 data-id="{{this.id}}">Eat</button>
+	</div>
+	{{/unless}}
+
+</li>
+
